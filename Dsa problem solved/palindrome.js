@@ -10,9 +10,6 @@ function palindrome(num){
         num = Math.floor(num/10);
 
     }
-    if(rev == temp){
-        return true;
-    }
-    return false;
+    return rev === temp;
 }
 console.log(palindrome(12321));
