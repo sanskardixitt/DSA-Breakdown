@@ -2,7 +2,7 @@ var missingNumber = function(nums) {
     const n = nums.length;
     const seen = Array(n + 1).fill(false);
 
-    for (const value of nums) {
+    for (const value of nums) {   
         seen[value] = true;
     }
 
