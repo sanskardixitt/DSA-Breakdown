@@ -9,7 +9,7 @@ let xor =0;
     
 };
 
-console.log(singleNumber([4,1,2,1,2]));
+console.log(singleNumber([4,1,2,1,2])); sanskardixit
 
 //   let hash = {};
 //     for (let i = 0; i< nums.length;i++)
